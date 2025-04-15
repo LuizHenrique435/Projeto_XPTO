@@ -5,7 +5,7 @@ Este repositório documenta o processo de criação de um ambiente com balanceam
 - `XPTO-1` – Backend 1
 - `XPTO-2` – Backend 2
 - `XPTO-3` – Backend 3
-- `XPTO-Balancer` – Load Balancer com NGINX
+- `Load-Balancer-XPTO` – Load Balancer com NGINX
 
 ---
 
@@ -25,9 +25,9 @@ Nomeie-as como:
 - `XPTO-1`
 - `XPTO-2`
 - `XPTO-3`
-- `XPTO-Balancer`
+- `Load-Balancer-XPTO`
 
-> Certifique-se de que as instâncias possuem **endereços IP públicos ou Elastic IPs**.
+> Certifique-se de que as instâncias possuem **endereços IP públicos**.
 
 ---
 
