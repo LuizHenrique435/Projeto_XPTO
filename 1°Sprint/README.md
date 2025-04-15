@@ -80,9 +80,9 @@ Substitua o conteúdo pelo seguinte:
 
 ```nginx
 upstream backends {
-    server 54.82.70.202; # Altere pelos IPS privados das suas instâncias
-    server 3.82.199.128;
-    server 54.226.6.101;
+    server XPTO-1; # Altere pelo IP privado da sua instância XPTO-1
+    server XPTO-2; # Altere pelo IP privado da sua instância XPTO-2
+    server XPTO-3; # Altere pelo IP privado da sua instância XPTO-3
 }
 
 server {
@@ -99,32 +99,6 @@ Reinicie o NGINX:
 ```bash
 sudo systemctl restart nginx
 ```
-
----
-
-### 4. (Opcional) Configurar o arquivo hosts localmente
-
-Para facilitar o acesso via nomes personalizados, edite o arquivo `hosts` no seu computador:
-
-```bash
-sudo nano /etc/hosts
-```
-
-Adicione as linhas:
-
-```plaintext
-54.82.70.202      xpto-1 # Altere pelos IPS públicos das suas instâncias
-3.82.199.128      xpto-2
-54.226.6.101      xpto-3
-54.167.12.188     xpto-balancer
-```
-
----
-
-## 🧪 Testando
-
-Abra o navegador e acesse o IP público do `XPTO-Balancer`.  
-Atualize a página várias vezes e observe que o conteúdo muda entre `XPTO-1`, `XPTO-2` e `XPTO-3`, confirmando o balanceamento de carga.
 
 ---
 
