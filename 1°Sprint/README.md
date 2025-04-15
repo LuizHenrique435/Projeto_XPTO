@@ -1,4 +1,4 @@
-# 🌐 Load Balancer com NGINX na AWS – XPTO Project
+# 🌐 Load Balancer com NGINX na AWS – PROJETO XPTO
 
 Este repositório documenta o processo de criação de um ambiente com balanceamento de carga usando **NGINX** em instâncias **Ubuntu EC2** na **AWS**, com as instâncias:
 
