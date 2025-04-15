@@ -5,6 +5,6 @@ Repositório destinado ao projeto EXPO referente a matéria de Redes de Computad
 
 ## 🗺️ Arquitetura do Projeto
 
-![Topologia do Projeto](https://github.com/kalil004/XPTO/blob/4eefa5b15908615c99e7d299d463de886cbe0113/media/Topografia%20AWS.png)
+![Topologia do Projeto](https://github.com/LuizHenrique435/Projeto_XPTO/blob/main/img/Topologia-de-Rede.drawio.png)
 
 ---
