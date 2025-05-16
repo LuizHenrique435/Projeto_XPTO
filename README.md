@@ -27,9 +27,12 @@ Repositório destinado ao projeto XPTO referente a matéria de Redes de Computad
 - [x] Criar e configurar instâncias EC2 com Ubuntu
 - [x] Configurar NGINX nas instâncias backend
 - [x] Criar um Load Balancer com NGINX apontando para os backends
+- [x] Configurar VPN para acesso seguro ao ambiente (Sprint 2)
+- [ ] Containerizar banco de dados com Docker + MongoDB (Sprint 3)
 
 
 ## 📌 Status Atual Projeto XPTO
 
-✅ **Sprint 1 finalizada**: Load Balancer ativo com 3 servidores backend funcionando e HTML customizado.  
+✅ **Sprint 1 Finalizada**: Load Balancer ativo com 3 servidores backend funcionando e HTML customizado. 
+✅ **Sprint 2 Finalizada**: Implementação da VPN e segurança da rede finalizadas.
 
