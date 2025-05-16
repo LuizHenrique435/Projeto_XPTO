@@ -33,6 +33,6 @@ Repositório destinado ao projeto XPTO referente a matéria de Redes de Computad
 
 ## 📌 Status Atual Projeto XPTO
 
-✅ **Sprint 1 Finalizada**: Load Balancer ativo com 3 servidores backend funcionando e HTML customizado. 
+✅ **Sprint 1 Finalizada**: Load Balancer ativo com 3 servidores backend funcionando e HTML customizado. <br>
 ✅ **Sprint 2 Finalizada**: Implementação da VPN e segurança da rede finalizadas.
 
